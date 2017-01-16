@@ -8,7 +8,8 @@ public class SortLauncher {
 		List<Integer> list = Arrays.asList(10, 7, 4, 2, 6, 1, 9, 8, 5, 3);
 //		List<Integer> ascSortlist = ExchangeSort.sort(list);
 //		List<Integer> ascSortlist = SelectSort.sort(list);
-		List<Integer> ascSortlist = BubbleSort.sort(list);
+//		List<Integer> ascSortlist = BubbleSort.sort(list);
+		List<Integer> ascSortlist = InsertionSort.sort(list);
 		
 		ascSortlist.stream().forEach(System.out::print);
 	}
