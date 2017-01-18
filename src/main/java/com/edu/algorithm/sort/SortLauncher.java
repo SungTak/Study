@@ -10,7 +10,8 @@ public class SortLauncher {
 //		List<Integer> ascSortlist = SelectSort.sort(list);
 //		List<Integer> ascSortlist = BubbleSort.sort(list);
 //		List<Integer> ascSortlist = InsertionSort.sort(list);
-		List<Integer> ascSortlist = MergeSort.sort(list);
+//		List<Integer> ascSortlist = MergeSort.sort(list);
+		List<Integer> ascSortlist = QuickSort.sort(list);
 		
 		ascSortlist.stream().forEach(System.out::print);
 	}
